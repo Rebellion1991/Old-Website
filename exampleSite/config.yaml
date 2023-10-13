@@ -120,7 +120,7 @@ params:
     intro: "Hi, my name is"
     title: "Ahmed Shenawy."
     subtitle: "I have wide experience in optimizing Mobile Core Network Services and Enhancing Roaming Services"
-    content: With a background in mobile core network and roaming servies, I specialize in fine-tuning mobile services and ensuring top-tier performance. I'm dedicated to delivering excellence in telecommunications, actively contributing to industry standards, and staying at the forefront of technological advancements. My goal is to optimize mobile networks and provide subscribers with seamless, high-quality services."
+    content: With a background in mobile core network and roaming servies, I specialize in fine-tuning mobile services and ensuring top-tier performance. I'm dedicated to delivering excellence in telecommunications, actively contributing to industry standards, and staying at the forefront of technological advancements. My goal is to optimize mobile core networks and provide subscribers with seamless, high-quality services."
     image: /images/me2.png
     bottomImage:
       enable: true
@@ -165,65 +165,84 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      - job: "Senior Raoming Engineer"
+        company: "RMI - Rakuten Mobile International"
+        companyUrl: "https://global.rakuten.com/corp/"
+        date: "Oct 2023 - present"
         featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          enable: false
+          url:
+        content: "I am currently working on a project assignment for an MNO operator in Germany to develop the international roaming services for them."
 
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+      - job: "Mobile Network Administrator"
+        company: "Primetel"
+        companyUrl: "https://www.primetel.com.cy/"
+        date: "Aug 2016 - Oct 2023"
         featuredLink:
-          enable: true
-          url: "https://example.com"
+          enable: false
+          url:
         info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          enable: false
+          content:
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          I had the privilage to work as a Mobile Network Engineer for more than seven years. Pariticipating in many project related to the mobile core network.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Participated in new mobile services planning, deployment and ATP testing operations like IMS services.
+          - Responsible for mobile network quality, performance metrics, KPIs and alarms for all mobile services through all network elements MSC, HLR, HSS, ATS, CSCF, SPS, MGW, UGW, MME and designing BI dashboards using QlikSense and Microsoft Power BI.
+          - Expertly oversee Level 2 technical support for all mobile services (Voice, SMS, PS, IMS, Supplementary) for the subscribers inclusively (local / outbound roamers / inbound roamers) through all communication channels reported by PrimeTel CS/TS/NOC and roaming partners.
+          - Responsible for mobile support internal ticketing system operations as defining areas of improvements in support processes and measuring SLA to ensure high QoS.
+          - Lead mobile terminals technical operations including testing new terminals, handling mobile support issues related to terminals and coordinating with OEM companies new SW and/or new MR for new mobile services like IMS services. 
+          - Operational experience on logging tools QxDM, QPST and QCAT for Qualcomm chipsets. As well as engineering mode logging for Mediatek, Spreadtrum chipsets.
+          - Responsible for the TADIG operations for outbound and inbound roaming services including validation of all IREG tests (IR24/IR35/IR32/IR38/IR25), handling TADIG validation for new SIOT agreements, issuing of TCC and giving final Go to roaming commercial team for new services' launches 
+          - Responsible for TAP & NRTRDE files flows in/out through DCH and roaming partners including handing TAP files technical issues related to formats.
+          - Participated in IREG testing for inbound and outbound roaming services and troubleshoot any related technical issues. 
+          - Operational experience of SS7, MAP and Diameter Protocols.
+          - Operational experience of network management systems of difference vendors including Huawei & ZTE for Core and RAN services.
+          - Participated in GSM Association groups including Interoperability Data specifications and Settlement , 5G, Technical Adaptation of Devices, Billing and Charging Evolution, Roaming in LTE , Roaming Charging Principles.
 
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
+      - job: "Roaming Coordinator"
+        company: "Primetel"
+        companyUrl: "https://www.primetel.com.cy/"
+        date: "Jun 2014 - Aug 2016"
         info:
           enable: false
         featuredLink:
-          enable: true
-          url: "https://example.com"
+          enable: false
+          url:
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          I joined as a Roaming Cordinator in the pre-launch phase for the roaming services and I was one of the key persons launching it and managing the whole lifecycle of the roaming services.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Commercial planning of new services and platforms, including internal activities.
+          - Accountable of the procurement process of acquiring new services from roaming services' vendors end-to-end.
+          - Accountable of forecasting the budget and optimizing the CapEx and OpEx of the roaming services.
+          - Assist in formalizing the roaming roadmap Strategy.
+          - Design business cases for special inter-operator tariffs.
+          - Accountable of preparing roaming regulatory reports requested by local regulator or EU BEREC.
+          - Follow up and implement any new regulations for roaming retail tariffs.
+          - Participate in planning and scheduling of IREG tests for all services (GSM, CAMEL, 3G & LTE) with roaming partners and internal teams.
+          - Assist on reconciliation of Receivables (AR) and Payables (AP) roaming accounts with the internal accounting team.
+          - Coordinate and handle any updates for the AA14/IOT/OpData document through GSM Association RAEX system.
+          - Monitor TAP/RAP/NRTRDE files flow from End-to-End perspective with related internal Teams, Roaming Partners & DCH.
 
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
+      - job: "Roaming Engineer"
+        company: "Etisalat Egypt"
+        companyUrl: "https://www.etisalat.eg/StaticFiles/portal2/etisalat/index_en.html"
+        date: "Mar 2012 - Apr 2014"
         featuredLink:
-          enable: true
-          url: "https://example.com"
+          enable: false
+          url:
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          I was part of the roaming revenue operations teams, mostly monitoring the daily traffic and analyzing the related wholesale operations in a proactive way.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          - Monitor TAP/RAP/NRTRDE files flow from End-to-End perspective with related IT Teams, Roaming Partners & DCH.
+          - Prepare daily, weekly and monthly operations reports and traffic analysis.
+          - Handle the validation of new IOT implementation and wholesale agreements UAT.
+          - Coordinate and handle any updates for the AA.14 document through GSM Association RAEX system.
+          - Working with Billing & Finance to ensure IOT tariffs are implemeneted in production for billing and settlement operations.
+          - Coordinate any communication between roaming partners and internal departments.
+          - Participate in revenue assurance activities to ensure no revenue leakage in roaming daily operations.
+          - Support and implement tools for automation of tasks.
+          - Develop internal and cross-departmental processes.
 
   # Education
   education:
@@ -231,46 +250,33 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Bachelor of Science in Computer Engineering"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Arab Academy for Science & Technology AAST, Alexandria Egypt"
+          url: "https://aast.edu/en/"
+        date: "2006 - 2011"
+        GPA: "2.8 out of 4.0"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          Developed a comprehensive smart home automation system for the graduation project, featuring IP wireless cameras for security and control. Alongside designed integrated circuits to address various abnormal events, including smoke detection, fire detection, and temperature control.
+          
+          The project was featured in the below exhibitions:
+            - Cairo ICT 2011
+            - Egyptian Engineering Day 2011
 
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
+            - Volunteer in IEEE - AAST Student Branch (From Feb 2008 - June 2011). During that time i participated in Organizing more than 30 of IEEE events (Startup Weekend Alexandria, CarTronics, Life on a Chip, Mind Mapping, Tech Talks, ESBM 2008, PCB, Robotics Workshop, etc.).
       - title: "High School"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
+          name: "El-Nasr Boys School E.B.S, Alexandria Egypt"
+          url: "https://en.wikipedia.org/wiki/El_Nasr_Boys%27_School"
+        GPA: "93.5% out of 100%"
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
