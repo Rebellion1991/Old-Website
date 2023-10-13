@@ -128,7 +128,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: /CV.pdf
+      url: "/CV Ahmed Shenawy.pdf"
       download: true
       newPage: false
     socialLinks:
