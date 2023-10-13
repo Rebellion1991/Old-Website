@@ -389,8 +389,8 @@ params:
   contact:
     enable: true
     # title: Custom Name
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+    email: ahmed@shenawy.xyz
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
@@ -406,23 +406,19 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      linkedin: https://www.linkedin.com/in/ahmedshenawy/
 
   # List pages like blogs and posts
   listPages:
-    disableFeaturedImage: false
+    disableFeaturedImage: true
 
   # Single pages like blog and post
   singlePages:
     readTime:
-      enable: true
+      enable: false
       content: min read
     scrollprogress:
-      enable: true
+      enable: false
 
   # For translations
   terms:
