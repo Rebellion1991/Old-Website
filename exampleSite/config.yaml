@@ -134,12 +134,7 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
-          url: https://example.com
-        - icon: fab fa-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://www.linkedin.com/in/ahmedshenawy/
 
   # About
   about:
@@ -147,19 +142,23 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+      I'm a telecommunications professional with a deep-seated passion for optimizing mobile core networks and enhancing roaming services. My educational foundation lies in computer engineering, and I've developed a keen interest in the dynamic intersection of technology and efficient network management.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      Presently, I hold the position of Senior Roaming Engineer in RMI - Rakuten Mobile International, where I actively engage in planning, deploying, and testing new mobile roaming services, including IMS services and 5G SDA products. My aspiration is to create an environment where subscribers experience top-tier services consistently.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are some highlights of my skillset portfolio:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Mobile Core Services"
+        - "SS7 Protocol Stack"
+        - "SIGTRAN Protocol Stack"
+        - "Product Lifecycle Management"
+        - "Mobile Terminal Testing & Debugging"
+        - "QxDM, QPST and QCAT"
+        - "Regression Testing"
+        - "Roaming Services"
+        - "QlikSense and Microsoft Power BI"
+        - "Raoming TADIG & IREG"
 
   # Experience
   experience:
