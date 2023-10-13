@@ -147,7 +147,7 @@ params:
       Presently, I hold the position of Senior Roaming Engineer in RMI - Rakuten Mobile International, where I actively engage in planning, deploying, and testing new mobile roaming services, including IMS services and 5G SDA products. My aspiration is to create an environment where subscribers experience top-tier services consistently.
     skills:
       enable: true
-      title: Here are some highlights of my skillset portfolio:
+      title: "Here are some highlights of my skillset portfolio:""
       items:
         - Mobile Core Services
         - SS7 Protocol Stack
