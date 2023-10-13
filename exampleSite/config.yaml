@@ -118,9 +118,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    title: "Ahmed Shenawy."
+    subtitle: "I have wide experience in optimizing Mobile Networks and Enhancing Roaming Services"
+    content: With a background in mobile core network and roaming servies, I specialize in fine-tuning mobile services and ensuring top-tier performance. I'm dedicated to delivering excellence in telecommunications, actively contributing to industry standards, and staying at the forefront of technological advancements. My goal is to optimize mobile networks and provide subscribers with seamless, high-quality services."
     image: /images/me2.png
     bottomImage:
       enable: true
@@ -133,7 +133,7 @@ params:
       newPage: false
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
+        - icon: fab fa-linkedin
           url: https://example.com
         - icon: fab fa-twitter
           url: https://example.com
