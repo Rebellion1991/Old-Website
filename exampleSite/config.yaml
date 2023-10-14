@@ -278,7 +278,7 @@ params:
 <<<<<<< HEAD
   courses:
 =======
-  aourses:
+  courses:
 >>>>>>> ea3a0fad1030c2d640b7ef8246735e95c3460438
     enable: true
     # title: Custom Name

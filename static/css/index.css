@@ -485,17 +485,17 @@ header .navbar.animate {
 
 #courses .card {
 =======
-/* aourses */
+/* courses */
 
-#aourses a {
+#courses a {
     text-decoration: none;
 }
 
-#aourses h3 {
+#courses h3 {
     color: var(--text-secondary-color) !important;
 }
 
-#aourses .card {
+#courses .card {
 >>>>>>> ea3a0fad1030c2d640b7ef8246735e95c3460438
     cursor: context-menu;
     background-color: var(--secondary-color) !important;
@@ -513,11 +513,11 @@ header .navbar.animate {
 
 #courses .card h5 {
 =======
-#aourses a.card {
+#courses a.card {
     cursor: alias;
 }
 
-#aourses .card h5 {
+#courses .card h5 {
 >>>>>>> ea3a0fad1030c2d640b7ef8246735e95c3460438
     color: var(--text-color) !important;
     opacity: 0.9;
@@ -530,11 +530,11 @@ header .navbar.animate {
 }
 #courses .card:focus {
 =======
-#aourses .card:hover {
+#courses .card:hover {
     border: 2px solid var(--text-color);
     transition: .3s;
 }
-#aourses .card:focus {
+#courses .card:focus {
 >>>>>>> ea3a0fad1030c2d640b7ef8246735e95c3460438
     border: 2px solid var(--text-color);
     transition: .3s;
@@ -543,7 +543,7 @@ header .navbar.animate {
 <<<<<<< HEAD
 #courses .card-text {
 =======
-#aourses .card-text {
+#courses .card-text {
 >>>>>>> ea3a0fad1030c2d640b7ef8246735e95c3460438
     background-color: var(--secondary-color) !important;
     color: var(--text-secondary-color) !important;
@@ -552,7 +552,7 @@ header .navbar.animate {
 <<<<<<< HEAD
 #courses img {
 =======
-#aourses img {
+#courses img {
 >>>>>>> ea3a0fad1030c2d640b7ef8246735e95c3460438
     border-radius: 0.7rem;
 }
