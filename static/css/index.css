@@ -472,17 +472,17 @@ header .navbar.animate {
     opacity: 0.8;
 }
 
-/* achievements */
+/* aourses */
 
-#achievements a {
+#aourses a {
     text-decoration: none;
 }
 
-#achievements h3 {
+#aourses h3 {
     color: var(--text-secondary-color) !important;
 }
 
-#achievements .card {
+#aourses .card {
     cursor: context-menu;
     background-color: var(--secondary-color) !important;
     border-radius: 1rem;
@@ -492,30 +492,30 @@ header .navbar.animate {
     border: 2px solid transparent;
 }
 
-#achievements a.card {
+#aourses a.card {
     cursor: alias;
 }
 
-#achievements .card h5 {
+#aourses .card h5 {
     color: var(--text-color) !important;
     opacity: 0.9;
 }
 
-#achievements .card:hover {
+#aourses .card:hover {
     border: 2px solid var(--text-color);
     transition: .3s;
 }
-#achievements .card:focus {
+#aourses .card:focus {
     border: 2px solid var(--text-color);
     transition: .3s;
 }
 
-#achievements .card-text {
+#aourses .card-text {
     background-color: var(--secondary-color) !important;
     color: var(--text-secondary-color) !important;
 }
 
-#achievements img {
+#aourses img {
     border-radius: 0.7rem;
 }
 
