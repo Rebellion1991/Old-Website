@@ -95,11 +95,11 @@
                     </li>
                     {{ end }}
 
-                    {{ if and (.Site.Params.courses.enable | default false) (not (.Site.Params.navbar.menus.disableCourses | default false)) }}
+                    {{ if and (.Site.Params.courses.enable | default false) (not (.Site.Params.navbar.menus.disablecourses | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#courses"
                             aria-label="courses">
-                            {{ .Site.Params.courses.title | default "Courses" }}
+                            {{ .Site.Params.courses.title | default "courses" }}
                         </a>
                     </li>
                     {{ end }}
