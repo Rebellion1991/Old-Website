@@ -111,7 +111,7 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: true
-      disableAchievements: false
+      disableCourses: false
       disableContact: false
 
   # Hero
@@ -140,7 +140,7 @@ params:
   about:
     enable: true
     title: About Me
-    image: /images/me.png
+    #image: /images/me.png
     content: |-
       I'm a telecommunications professional with a deep-seated passion for optimizing mobile core networks and enhancing roaming services. My educational foundation lies in computer engineering, and I've developed a keen interest in the dynamic intersection of technology and efficient network management.
 
@@ -274,8 +274,12 @@ params:
           enable: false
           url: https://example.com
 
-  # Achievements
-  achievements:
+  # Courses
+<<<<<<< HEAD
+  courses:
+=======
+  courses:
+>>>>>>> ea3a0fad1030c2d640b7ef8246735e95c3460438
     enable: true
     # title: Custom Name
     items:

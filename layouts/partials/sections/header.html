@@ -95,11 +95,19 @@
                     </li>
                     {{ end }}
 
-                    {{ if and (.Site.Params.achievements.enable | default false) (not (.Site.Params.navbar.menus.disableAchievements | default false)) }}
+<<<<<<< HEAD
+                    {{ if and (.Site.Params.courses.enable | default false) (not (.Site.Params.navbar.menus.disableCourses | default false)) }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#achievements"
-                            aria-label="achievements">
-                            {{ .Site.Params.achievements.title | default "Achievements" }}
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#courses"
+                            aria-label="courses">
+                            {{ .Site.Params.courses.title | default "Courses" }}
+=======
+                    {{ if and (.Site.Params.courses.enable | default false) (not (.Site.Params.navbar.menus.disableCourses | default false)) }}
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#courses"
+                            aria-label="courses">
+                            {{ .Site.Params.courses.title | default "Courses" }}
+>>>>>>> ea3a0fad1030c2d640b7ef8246735e95c3460438
                         </a>
                     </li>
                     {{ end }}
