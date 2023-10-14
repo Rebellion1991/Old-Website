@@ -472,6 +472,7 @@ header .navbar.animate {
     opacity: 0.8;
 }
 
+<<<<<<< HEAD
 /* courses */
 
 #courses a {
@@ -483,6 +484,19 @@ header .navbar.animate {
 }
 
 #courses .card {
+=======
+/* aourses */
+
+#aourses a {
+    text-decoration: none;
+}
+
+#aourses h3 {
+    color: var(--text-secondary-color) !important;
+}
+
+#aourses .card {
+>>>>>>> ea3a0fad1030c2d640b7ef8246735e95c3460438
     cursor: context-menu;
     background-color: var(--secondary-color) !important;
     border-radius: 1rem;
@@ -492,30 +506,54 @@ header .navbar.animate {
     border: 2px solid transparent;
 }
 
+<<<<<<< HEAD
 #courses a.card {
     cursor: alias;
 }
 
 #courses .card h5 {
+=======
+#aourses a.card {
+    cursor: alias;
+}
+
+#aourses .card h5 {
+>>>>>>> ea3a0fad1030c2d640b7ef8246735e95c3460438
     color: var(--text-color) !important;
     opacity: 0.9;
 }
 
+<<<<<<< HEAD
 #courses .card:hover {
     border: 2px solid var(--text-color);
     transition: .3s;
 }
 #courses .card:focus {
+=======
+#aourses .card:hover {
+    border: 2px solid var(--text-color);
+    transition: .3s;
+}
+#aourses .card:focus {
+>>>>>>> ea3a0fad1030c2d640b7ef8246735e95c3460438
     border: 2px solid var(--text-color);
     transition: .3s;
 }
 
+<<<<<<< HEAD
 #courses .card-text {
+=======
+#aourses .card-text {
+>>>>>>> ea3a0fad1030c2d640b7ef8246735e95c3460438
     background-color: var(--secondary-color) !important;
     color: var(--text-secondary-color) !important;
 }
 
+<<<<<<< HEAD
 #courses img {
+=======
+#aourses img {
+>>>>>>> ea3a0fad1030c2d640b7ef8246735e95c3460438
     border-radius: 0.7rem;
 }
 
