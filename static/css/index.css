@@ -472,17 +472,17 @@ header .navbar.animate {
     opacity: 0.8;
 }
 
-/* aourses */
+/* courses */
 
-#aourses a {
+#courses a {
     text-decoration: none;
 }
 
-#aourses h3 {
+#courses h3 {
     color: var(--text-secondary-color) !important;
 }
 
-#aourses .card {
+#courses .card {
     cursor: context-menu;
     background-color: var(--secondary-color) !important;
     border-radius: 1rem;
@@ -492,30 +492,30 @@ header .navbar.animate {
     border: 2px solid transparent;
 }
 
-#aourses a.card {
+#courses a.card {
     cursor: alias;
 }
 
-#aourses .card h5 {
+#courses .card h5 {
     color: var(--text-color) !important;
     opacity: 0.9;
 }
 
-#aourses .card:hover {
+#courses .card:hover {
     border: 2px solid var(--text-color);
     transition: .3s;
 }
-#aourses .card:focus {
+#courses .card:focus {
     border: 2px solid var(--text-color);
     transition: .3s;
 }
 
-#aourses .card-text {
+#courses .card-text {
     background-color: var(--secondary-color) !important;
     color: var(--text-secondary-color) !important;
 }
 
-#aourses img {
+#courses img {
     border-radius: 0.7rem;
 }
 

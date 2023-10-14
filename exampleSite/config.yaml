@@ -275,7 +275,7 @@ params:
           url: https://example.com
 
   # Courses
-  aourses:
+  courses:
     enable: true
     # title: Custom Name
     items:

@@ -1,10 +1,10 @@
-{{ if .Site.Params.aourses.enable | default false }}
-<section id="aourses" class="py-5">
+{{ if .Site.Params.courses.enable | default false }}
+<section id="courses" class="py-5">
     <div class="container">
-        <h3 class="text-center">{{ .Site.Params.aourses.title | default "Courses" }}</h3>
+        <h3 class="text-center">{{ .Site.Params.courses.title | default "Courses" }}</h3>
         <div class="px-0 px-md-5 px-lg-5">
             <div class="row justify-content-center px-3 px-md-5 px-lg-5">
-                {{ range .Site.Params.aourses.items }}
+                {{ range .Site.Params.courses.items }}
                 {{ if .url }}
                 <div class="col-lg-4 col-md-6 my-3">
                     <a class="card my-3 h-100 p-3" href="{{ .url }}" title="{{ .title }}" target="_blank">
