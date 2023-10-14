@@ -98,7 +98,7 @@ header .navbar.animate {
 }
 
 #hero h3 {
-    font-size: clamp(30px, 8vw, 30px);
+    font-size: clamp(50px, 8vw, 50px);
     /* color: var(--primary-color) !important; */
     opacity: 0.5;
 }
