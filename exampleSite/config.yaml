@@ -172,7 +172,7 @@ params:
         featuredLink:
           enable: false
           url:
-        content: I am currently working on a project assignment for an MNO operator in Germany to develop the international roaming services for them.
+        content: I am currently working on a project assignment for an MNO operator in Germany to develop and launch the international roaming services.
 
       - job: Mobile Network Administrator
         company: Primetel
