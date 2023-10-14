@@ -95,11 +95,11 @@
                     </li>
                     {{ end }}
 
-                    {{ if and (.Site.Params.achievements.enable | default false) (not (.Site.Params.navbar.menus.disableAchievements | default false)) }}
+                    {{ if and (.Site.Params.aourses.enable | default false) (not (.Site.Params.navbar.menus.disableCourses | default false)) }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#achievements"
-                            aria-label="achievements">
-                            {{ .Site.Params.achievements.title | default "Achievements" }}
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#aourses"
+                            aria-label="aourses">
+                            {{ .Site.Params.aourses.title | default "Courses" }}
                         </a>
                     </li>
                     {{ end }}
