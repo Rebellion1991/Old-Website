@@ -88,17 +88,17 @@ header .navbar.animate {
 }
 
 #hero .subtitle {
-    font-size: clamp(14px,5vw,16px);
+    font-size: clamp(16px,5vw,18px);
     opacity: 0.6;
 }
 
 #hero h2 {
-    font-size: clamp(30px, 8vw, 40px);
+    font-size: clamp(35px, 8vw, 40px);
     color: var(--primary-color) !important;
 }
 
 #hero h3 {
-    font-size: clamp(24px, 8vw, 26px);
+    font-size: clamp(30px, 8vw, 30px);
     /* color: var(--primary-color) !important; */
     opacity: 0.5;
 }
