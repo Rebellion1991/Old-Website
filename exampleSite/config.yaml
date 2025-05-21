@@ -329,10 +329,6 @@ params:
         content: |-
           WEB3 | Blockchain Technology | DeFi | Tokenization
         url: https://blockstream.info/tx/8c6cfc297dec06ae2eebcd434ffac3dc1bb0ccc733bed835bfd9b262116f40fd
-      - title: "SS7 & Sigtran technologies, Architecture & signaling flows | Udemy"
-        content: |-
-          SS7 | SIGTRAN | Signaling Protocol | Calls Flows
-        url: https://www.udemy.com/certificate/UC-5282ef1d-b566-4961-b298-e8a887873979/
       - title: "4G-LTE EPC: Evolved Packet Core Network | Udemy"
         content: |-
           4G Architecture | 4G Roaming | GTPv2 Protocol | Calls Flows
