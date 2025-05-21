@@ -220,15 +220,6 @@ params:
             Hybridverse connects blockchain to decentralized operations, like real world data validation and verification, e-voting, generation of digital assets, stablecoins & more.
             Utilize our curated blockchain tools to boost your operations.
 
-      - job: Senior Raoming Engineer
-        company: RMI - Rakuten Mobile International
-        companyUrl: https://global.rakuten.com/corp/
-        date: Oct 2023 - present
-        featuredLink:
-          enable: false
-          url:
-        content: I am currently working on a project assignment for an MNO operator in Germany to develop and launch the international roaming services.
-
       - job: Mobile Network Administrator
         company: Primetel
         companyUrl: https://www.primetel.com.cy/
