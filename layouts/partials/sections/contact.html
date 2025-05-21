@@ -1,7 +1,7 @@
 {{ if .Site.Params.contact.enable | default false }}
 <section id="contact" class="py-5">
     <div class="container">
-        <h3 id="contact-form-heading" class="text-center">{{ .Site.Params.contact.title | default "Get in Touch" }}</h3>
+        <h3 class="text-center">{{ .Site.Params.contact.title | default "Get in Touch" }}</h3>
         <div class="px-0 px-md-5 px-lg-5">
             <div class="row justify-content-center px-md-5">
                 <div class="col-md-8 py-3">
@@ -10,28 +10,17 @@
                     </div>
                     {{ if .Site.Params.contact.formspree.enable | default false }}
                     <div class="row justify-content-center">
-                        <!-- FormSpree form with AJAX submission -->
-                        <form id="fs-frm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/xzzrqzpp" method="post" class="col-md-7" aria-labelledby="contact-form-heading" target="hidden-iframe">
+                        <form id="contact-form" action="https://formspree.io/f/{{ .Site.Params.contact.formspree.formId }}" onsubmit="handleFormspreeSubmit(event)" method="POST" class="col-md-7">
                             <div class="form-group pt-3">
-                                <label for="email-input">{{ .Site.Params.contact.formspree.emailCaption | emojify | default "Your Email" }}</label>
-                                <input type="email" id="email-input" class="form-control" name="_replyto" required="true" aria-required="true">
+                                <input type="email" class="form-control"  name="email" required="true" placeholder='{{ .Site.Params.contact.formspree.emailCaption | emojify | default "Enter your email" }}'>
                             </div>
                             <div class="form-group pt-3">
-                                <label for="message-input">{{ .Site.Params.contact.formspree.messageCaption | emojify | default "Your Message" }}</label>
-                                <textarea id="message-input" class="form-control" name="message" required="true" rows="3" aria-required="true"></textarea>
+                                <textarea class="form-control" name="message" required="true" placeholder='{{ .Site.Params.contact.formspree.messageCaption | emojify | default "Enter your message" }}' rows="3"></textarea>
                             </div>
-                            <input type="hidden" name="_subject" value="Website Contact Form Submission">
-                            <input type="hidden" name="_next" value="#" title="Redirect URL">
-                            <input type="text" name="_gotcha" class="hidden-element" title="Spam prevention field" aria-hidden="true">
                             <div class="form-group text-center pt-3">
-                                <button type="submit" class="btn" aria-label="Submit form">{{ .Site.Params.contact.btnName | default "Send Message" }}</button>
+                                <button type="submit" class="btn">{{ .Site.Params.contact.btnName | default "Get in Touch" }}</button>
                             </div>
                         </form>
-                        <!-- Form status messages -->
-                        <div id="contact-form-status" class="col-md-7 mt-3" aria-live="polite"></div>
-                        
-                        <!-- Hidden iframe for form submission -->
-                        <iframe name="hidden-iframe" id="hidden-iframe" class="hidden-element" title="Hidden frame for form submission" aria-hidden="true"></iframe>
                     </div>
                     {{ else if .Site.Params.contact.email }}
                     <div class="text-center pt-3">
@@ -44,10 +33,11 @@
             </div>
         </div>
     </div>
+    <div id="contact-form-status"></div>
 </section>
 {{ end }}
 
-<svg xmlns="http://www.w3.org/2000/svg" class="contact-icons">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   <symbol id="check-circle-fill" viewBox="0 0 16 16">
     <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
   </symbol>

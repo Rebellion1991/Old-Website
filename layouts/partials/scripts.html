@@ -31,66 +31,13 @@
 
 {{- if (not .Site.Params.theme.disableThemeToggle) }}
 <script>
-    // Initialize theme toggle state
-    const themeToggle = document.getElementById("theme-toggle");
-    
-    // Function to toggle theme
-    function toggleTheme() {
-        const isDarkMode = document.body.className.includes("dark");
-        
-        if (isDarkMode) {
-            // Switch to light mode
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
-            themeToggle.setAttribute("aria-checked", "false");
-            // Announce theme change to screen readers
-            themeToggle.setAttribute("aria-label", "Dark mode disabled, toggle to enable dark mode");
-            // Add visual feedback
-            themeToggle.classList.remove('dark-mode');
-            themeToggle.classList.add('light-mode');
         } else {
-            // Switch to dark mode
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
-            themeToggle.setAttribute("aria-checked", "true");
-            // Announce theme change to screen readers
-            themeToggle.setAttribute("aria-label", "Dark mode enabled, toggle to enable light mode");
-            // Add visual feedback
-            themeToggle.classList.remove('light-mode');
-            themeToggle.classList.add('dark-mode');
-        }
-        
-        // Announce the change to screen readers
-        const announcement = document.createElement('div');
-        announcement.setAttribute('aria-live', 'polite');
-        announcement.classList.add('visually-hidden');
-        announcement.textContent = isDarkMode ? 'Switched to light mode' : 'Switched to dark mode';
-        document.body.appendChild(announcement);
-        
-        // Remove the announcement after it's been read
-        setTimeout(() => {
-            document.body.removeChild(announcement);
-        }, 1000);
-    }
-    
-    // Set initial aria-checked state and visual class based on current theme
-    if (document.body.className.includes("dark")) {
-        themeToggle.setAttribute("aria-checked", "true");
-        themeToggle.classList.add('dark-mode');
-    } else {
-        themeToggle.setAttribute("aria-checked", "false");
-        themeToggle.classList.add('light-mode');
-    }
-    
-    // Add click handler
-    themeToggle.addEventListener("click", toggleTheme);
-    
-    // Add keyboard handler for accessibility
-    themeToggle.addEventListener("keydown", (e) => {
-        // Toggle on Enter or Space key
-        if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
-            e.preventDefault();
-            toggleTheme();
         }
     })
 
@@ -138,12 +85,8 @@
 
 {{ end }}
 
-{{/* FormSpree and Contact form scripts */}}
-{{ if .Site.Params.contact.formspree.enable | default false }}
-    <!-- FormSpree's official JavaScript library -->
-    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-    <!-- Our custom contact form handler -->
-    <script src="{{ .Site.Params.staticPath | default "/static" }}/js/contact-form.js"></script>
+{{ if (.Site.Params.contact.formspree.enable | default false) }}
+<script src="{{ .Site.Params.staticPath }}/js/contact.js"></script>
 {{ end }}
 
 {{ if (.Site.Params.customScripts | default false) }}

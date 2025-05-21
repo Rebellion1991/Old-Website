@@ -1,142 +1,84 @@
-# Ahmed Shenawy's Personal Website
+# Hugo Profile | [Wiki Page](https://github.com/gurusabarish/hugo-profile/wiki)
 
-This repository contains the source code for my personal website, built with [Hugo](https://gohugo.io/) and the [Hugo Profile](https://github.com/gurusabarish/hugo-profile) theme.
+[![Twitter](https://img.shields.io/twitter/url?label=Tweet&style=social&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile) [![GitHub forks](https://img.shields.io/github/forks/gurusabarish/hugo-profile?style=plastic)](https://github.com/gurusabarish/hugo-profile/network) [![GitHub stars](https://img.shields.io/github/stars/gurusabarish/hugo-profile?style=plastic)](https://github.com/gurusabarish/hugo-profile/stargazers)
 
-## 🚀 Features
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5c1dcb34-cada-4c80-82b7-cfdbdbd7c774/deploy-status)](https://app.netlify.com/sites/hugo-profile/deploys)
+![Latest Release](https://img.shields.io/github/v/release/gurusabarish/hugo-profile?include_prereleases)
+![Last Commit](https://img.shields.io/github/last-commit/gurusabarish/hugo-profile)
+![Open Issues](https://img.shields.io/github/issues/gurusabarish/hugo-profile?color=important)
+![Open Pull Requests](https://img.shields.io/github/issues-pr/gurusabarish/hugo-profile?color=yellowgreen)
+![License](https://img.shields.io/github/license/gurusabarish/hugo-profile)
 
-- Responsive design for all devices
-- Dark/light mode toggle with accessibility features
-- Contact form with custom feedback modal
-- Sections for about, experience, education, and courses
-- Blog functionality
-- Google Analytics integration
+A high performance and mobile first hugo template for personal portfolio and blog
 
-## 📋 Project Structure
+- Example Site: [hugo-profile.netlify.app](https://hugo-profile.netlify.app)
 
-```text
-shenawy.xyz/
-├── archetypes/       # Content templates
-├── content/          # Website content (markdown files)
-│   ├── blogs/        # Blog posts
-├── data/             # Data files for the website
-├── layouts/          # Custom HTML templates
-├── static/           # Static files (images, CSS, JS)
-│   ├── css/          # Custom CSS files
-│   ├── js/           # JavaScript files
-│   └── images/       # Image assets
-├── themes/           # Hugo themes
-│   └── hugo-profile/ # Base theme
-├── config.yaml       # Site configuration
-└── start-dev-server.ps1 # Development server starter script
+# Features
+- Fully Responsive
+- Minimalist Design
+- SEO Friendly.
+- Light/Dark/auto
+- Taxonomies
+- [Color customization](https://github.com/gurusabarish/hugo-profile/wiki/Color-Customization)
+- Analytics Support 
+  - [Google Analytics](https://gohugo.io/templates/internal/#google-analytics)
+- Comment Support
+  - [Disqus](https://gohugo.io/content-management/comments/)
+- Integration with [FormSpree](https://formspree.io/) for submitting "Contact me" form
+
+Technology used: Bootstrap, fontawesome 
+
+# Requirements
+- Hugo Version 0.87.0 or higher
+
+
+# How to use this template
+
+- [Hugo theme](#Hugo-theme)
+- [Direct deployment using netlify](#Direct-deployment-using-netlify)
+
+[For more details](https://github.com/gurusabarish/hugo-profile/wiki)
+## Hugo theme
+
+- Install Hugo and create a site using `hugo new site my-site -f=yaml`
+- Clone this repo inside your themes folder
 ```
-
-## 🛠️ Setup and Development
-
-### Prerequisites
-
-- [Hugo](https://gohugo.io/installation/) (Extended version recommended)
-- Git for version control
-
-### Local Development
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/Rebellion1991/shenawy.xyz.git
-   cd shenawy.xyz
-   ```
-
-2. Start the development server:
-
-   ```bash
-   hugo server -D
-   ```
-  
-   Or use the provided script:
-
-   ```powershell
-   .\start-dev-server.ps1
-   ```
-
-3. Open your browser and visit [http://localhost:1313/](http://localhost:1313/)
-
-### Creating New Content
-
-To create a new blog post:
-
-```bash
-hugo new blogs/my-new-post.md
+cd themes
+git clone https://github.com/gurusabarish/hugo-profile.git
 ```
+- Create config.yaml (you can use `config.toml` too) inside root folder 
+- Setup the configurations in `config.yaml`. [reference](https://github.com/gurusabarish/hugo-profile/blob/master/exampleSite/config.yaml)
+- You should have the mentioned (_inside the config file_) images in static folder to use them.
 
-Or copy and modify the existing template at `content/blogs/blog-template.md`.
+For more details: [Hugo's official docs](https://gohugo.io/getting-started/quick-start/), [content management](https://www.mikedane.com/static-site-generators/hugo/content-organization/)
 
-## 🔧 Customization
+## Direct deployment using netlify
 
-### Site Configuration
+- Fork this repo or create new repo using `use this template` button and connect repo to netlify.
+- whenever you customize the files exampleSite folder, netlify will automatically deploy your changes.
 
-The main configuration is in `config.yaml`. Here you can modify:
+For more details: [host on netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/), [content management](https://www.mikedane.com/static-site-generators/hugo/content-organization/)
 
-- Site metadata (title, description)
-- Navigation menu
-- Hero section content
-- About section content
-- Experience and education details
-- Contact form settings
-- Theme colors and fonts
+# Deployment
 
-### Custom Layouts
+Run `hugo`. It will generate a folder called public. You can use the files inside public folder for deployment. You should delete the public folder for each time when you are using `hugo` command.
 
-Custom layouts and overrides are in the `layouts/` directory. These take precedence over the theme's default layouts.
+# Issues
 
-### Custom CSS/JS
+If you have a question, please [open an issue](https://github.com/gurusabarish/hugo-profile/issues) for help and to help those who come after you. The more information you can provide, the better!
 
-Add custom CSS and JavaScript in the `static/` directory:
+# Contributing
 
-- `static/css/` - Custom CSS files
-- `static/js/` - Custom JavaScript files
+Contributions, issues, and feature requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-## 📦 Deployment
+# License
 
-### Building for Production
+Licensed under [MIT](LICENSE)
 
-To build the site for production:
+# 🤝 Support
 
-```bash
-hugo --minify
-```
+Give a ⭐️ or buy me a ~`coffee`~ tea if you like this project!
 
-The built site will be in the `public/` directory.
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q7BFFGU)
 
-### Deployment Options
-
-The site can be deployed to various platforms:
-
-- **Netlify**: Connect your GitHub repository to Netlify for automatic deployments
-- **GitHub Pages**: Push the `public/` directory to a GitHub Pages repository
-- **Any static hosting**: Upload the contents of the `public/` directory to any static hosting provider
-
-## 🧩 Custom Components
-
-### Contact Form
-
-The contact form uses [Formspree](https://formspree.io/) for handling submissions. The form includes:
-
-- Custom AJAX submission to prevent page redirects
-- Feedback modal for success/error messages
-- Accessibility features
-
-### Dark/Light Mode Toggle
-
-The site includes a custom dark/light mode toggle with:
-
-- Keyboard navigation support
-- ARIA attributes for accessibility
-- Visual indicators for current state
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📞 Contact
-
-For any questions or suggestions, please use the contact form on the website or reach out directly to [ahmed@shenawy.xyz](mailto:ahmed@shenawy.xyz)
+<a href="https://www.buymeacoffee.com/gurusabarish" target="_blank" rel="noopener"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40" width="145" alt="Buy Me A Coffee"></a>
