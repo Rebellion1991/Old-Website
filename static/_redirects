@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://shenawy.netlify.app/* https://shenawy.xyz/:splat 301!

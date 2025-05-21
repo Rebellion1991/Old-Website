@@ -22,16 +22,16 @@
                 <div class="sticky-sidebar">
                     <aside class="aboutImg">
                         <div class="text-center">
-                            <img src="{{ .Params.image }}" class="mx-auto rounded" alt="">
+                            <img src="{{ .Params.image }}" class="mx-auto rounded" alt="{{ .Params.name | default "Profile image" }}">
                         </div>
                         <h2 class="text-center pt-3">
                             {{ .Params.name }}
                         </h2>
                         <div class="aboutImg-content">
                             <ul class="list-inline pt-3 text-center">
-                                {{ range .Params.socialLinks.fontAwesomeIcons }}
+                                {{- range .Params.socialLinks.fontAwesomeIcons -}}
                                 <li class="list-inline-item text-center">
-                                    <a href="{{ .url }}" target="_blank">
+                                    <a href="{{ .url }}" target="_blank" title="{{ .name | default "Social media link" }}">
                                         <i class="{{ .icon }}"></i>
                                     </a>
                                 </li>
@@ -39,8 +39,8 @@
 
                                 {{ range .Params.socialLinks.customIcons }}
                                 <li class="list-inline-item text-center">
-                                    <a href="{{ .url }}" target="_blank" class="img-icon">
-                                        <img src="{{ .icon }}">
+                                    <a href="{{ .url }}" target="_blank" class="img-icon" title="{{ .name | default "Social media link" }}">
+                                        <img src="{{ .icon }}" alt="{{ .name | default "Social media icon" }}">
                                     </a>
                                 </li>
                                 {{ end }}
@@ -60,7 +60,7 @@
             </div>
         </div>
     </div>
-    <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <button class="p-2 px-3" onclick="topFunction()" id="topScroll" title="Scroll to top">
         <i class="fas fa-angle-up"></i>
     </button>
 </section>

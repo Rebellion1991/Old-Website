@@ -1,7 +1,7 @@
 <span>
     {{ range .Site.Params.hero.socialLinks.fontAwesomeIcons }}
     <span class="px-1">
-        <a href="{{ .url }}" target="_blank" class="btn social-icon">
+        <a href="{{ .url }}" target="_blank" class="btn social-icon" title="{{ .name | default "Social media link" }}">
             <i class="{{ .icon }}"></i>
         </a>
     </span>
@@ -9,8 +9,8 @@
 
     {{ range .Site.Params.hero.socialLinks.customIcons }}
     <span class="px-1">
-        <a href="{{ .url }}" target="_blank" class="btn social-icon">
-            <img src="{{ .icon }}">
+        <a href="{{ .url }}" target="_blank" class="btn social-icon" title="{{ .name | default "Social media link" }}">
+            <img src="{{ .icon }}" alt="{{ .name | default "Social media icon" }}">
         </a>
     </span>
     {{ end }}

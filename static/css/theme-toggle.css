@@ -1,0 +1,80 @@
+/* Enhanced Theme Toggle Styles */
+.theme-toggle-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  padding: 0;
+}
+
+/* Focus styles for keyboard navigation */
+.theme-toggle-button:focus {
+  outline: 2px solid var(--primary-color, #007bff);
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+/* Light mode specific styles */
+.theme-toggle-button.light-mode {
+  color: #6c757d;
+}
+
+/* Dark mode specific styles */
+.theme-toggle-button.dark-mode {
+  color: #f8f9fa;
+}
+
+/* Hover effects */
+.theme-toggle-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+body.dark .theme-toggle-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Icon visibility */
+.theme-toggle-button #moon {
+  display: none;
+}
+
+.theme-toggle-button #sun {
+  display: block;
+}
+
+body.dark .theme-toggle-button #moon {
+  display: block;
+}
+
+body.dark .theme-toggle-button #sun {
+  display: none;
+}
+
+/* Accessibility class for screen readers */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Add a subtle transition effect when switching themes */
+.theme-toggle-button svg {
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle-button:hover svg {
+  transform: rotate(15deg);
+}
