@@ -165,6 +165,61 @@ params:
     enable: true
     # title: Custom Name
     items:
+      - job: Roaming Expert
+        company: RMI - Rakuten Mobile International
+        companyUrl: https://global.rakuten.com/corp/
+        date: Apr 2024 - present
+        featuredLink:
+          enable: false
+          url:
+        content: |
+            - Member of the engineering team for international roaming, overseeing the technical strategy and execution of projects supporting Rakuten’s global expansion.
+            - Manage the engineering stream for professional services, delivering end-to-end solutions and technical support to international clients and partners.
+            - Collaborate closely with business, devices, BSS, and core network teams to ensure smooth coordination and timely delivery of roaming-related projects and services.
+            - Provide expert guidance on the architecture, deployment, and optimization of roaming network elements, supporting all business streams and ensuring high service reliability.
+            - Participate in cross-functional initiatives to enhance product offerings, drive innovation, and support the growth of Rakuten’s international business portfolio.
+            - Represent the engineering division in customer engagements, technical workshops, and industry forums, showcasing Rakuten’s capabilities and fostering strong global partnerships.
+      
+      - job: Senior Roaming Engineer
+        company: RMI - Rakuten Mobile International
+        companyUrl: https://global.rakuten.com/corp/
+        date: Oct 2023 - Apr 2024
+        featuredLink:
+          enable: false
+          url:
+        content: |
+          Co-Lead a professional service project for an MNO operator in Germany to develop and launch the international roaming services.
+          - Handle the end-to-end ideation, design, development, and implementation of new international roaming products and solutions, ensuring seamless delivery from concept to launch.
+          - Responsible for all international roaming-related network elements, providing technical leadership and oversight for integration, optimization, and ongoing operations.
+          - Cross-departmental collaboration with teams such as Devices, BSS, and Core to align technical requirements, streamline project execution, and ensure robust product performance.
+          - Support the business development and pre-sales engineering streams for professional services, delivering tailored roaming and connectivity solutions to global customers and partners.
+          - Drove continuous improvement initiatives by analyzing roaming service performance, identifying opportunities for innovation, and implementing best practices in network engineering and product delivery.
+          - Maintained comprehensive technical documentation and ensured compliance with industry standards and Rakuten’s quality benchmarks for international roaming services.
+      
+      - job: Field Testing - Cyprus Ambassador
+        company:  WE17
+        companyUrl: https://we17.com/
+        date: Jun 2023 - present
+        featuredLink:
+          enable: false
+          url:
+        content: |
+            - Handling mobile terminals network and field testing operations within Cyprus.
+            - E2E network testing for all available RAT technologies as well as VAS services.
+            - Testing eSIM wearable devices.
+            - Participated in many projects for terminals from several manufacturers.
+
+      - job: Co-Founder
+        company:  Hybridverse
+        companyUrl: https://www.hybridverse.com/
+        date: Oct 2018 - Sep 2020
+        featuredLink:
+          enable: false
+          url:
+        content: |
+            Hybridverse connects blockchain to decentralized operations, like real world data validation and verification, e-voting, generation of digital assets, stablecoins & more.
+            Utilize our curated blockchain tools to boost your operations.
+
       - job: Senior Raoming Engineer
         company: RMI - Rakuten Mobile International
         companyUrl: https://global.rakuten.com/corp/
@@ -279,6 +334,14 @@ params:
     enable: true
     # title: Custom Name
     items:
+      - title: "MASTERING WEB3 | University of Nicosia"
+        content: |-
+          WEB3 | Blockchain Technology | DeFi | Tokenization
+        url: https://blockstream.info/tx/8c6cfc297dec06ae2eebcd434ffac3dc1bb0ccc733bed835bfd9b262116f40fd
+      - title: "SS7 & Sigtran technologies, Architecture & signaling flows | Udemy"
+        content: |-
+          SS7 | SIGTRAN | Signaling Protocol | Calls Flows
+        url: https://www.udemy.com/certificate/UC-5282ef1d-b566-4961-b298-e8a887873979/
       - title: "4G-LTE EPC: Evolved Packet Core Network | Udemy"
         content: |-
           4G Architecture | 4G Roaming | GTPv2 Protocol | Calls Flows
